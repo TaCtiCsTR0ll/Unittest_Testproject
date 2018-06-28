@@ -1,0 +1,59 @@
+<Project>
+  <Name>MasterMind</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>MasterMind</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>NumberSequence</Name>
+        <Access>Public</Access>
+        <Location left="84" top="119" />
+        <Size width="326" height="137" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;int&gt; _numberList</Member>
+        <Member type="Constructor">public NumberSequence(string numberSequenceAsString)</Member>
+        <Member type="Method">public int getNumberAtIndex(int index)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MastermindGame</Name>
+        <Access>Public</Access>
+        <Location left="513" top="32" />
+        <Size width="393" height="346" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Settings</Name>
+        <Access>Public</Access>
+        <Location left="416" top="439" />
+        <Size width="266" height="145" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private int[] _options</Member>
+        <Member type="Method">public void setOption(Option option, int value)</Member>
+        <Member type="Method">public int getOption(Option option)</Member>
+        <Member type="Constructor">public Settings()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>Option</Name>
+        <Access>Public</Access>
+        <Location left="720" top="439" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>AmountOfNumbers</Value>
+        <Value>AmountOfRounds</Value>
+        <Value>End</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>CheckResult</Name>
+        <Access>Public</Access>
+        <Location left="84" top="422" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
